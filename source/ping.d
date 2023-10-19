@@ -1,9 +1,5 @@
 module ping;
 
-version (Linux)
-{
-    import core.sys.linux.sys.socket;
-}
 import std.socket;
 import std.format;
 import std.stdio;
