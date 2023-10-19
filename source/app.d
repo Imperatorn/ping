@@ -14,7 +14,7 @@ import std.stdio;
 import std.string;
 
 import ipcmp;
-import ping2;
+import ping;
 
 void main(string[] args)
 {
