@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"johan.forsberg"
+	],
+	"copyright": "Copyright © 2023, johan.forsberg",
+	"description": "A simple ping application",
+	"license": "proprietary",
+	"name": "ping"
+}
