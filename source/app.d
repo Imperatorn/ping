@@ -5,6 +5,7 @@ import core.sys.windows.winsock2;
 else
 {
 import core.sys.linux.sys.socket;
+import core.sys.posix.netinet.in_;
 import core.sys.posix.netdb;
 }
 
