@@ -3,7 +3,10 @@ module app;
 version(Windows)
 import core.sys.windows.winsock2;
 else
+{
+import core.sys.linux.sys.socket;
 import core.sys.posix.netdb;
+}
 
 import std.stdio;
 import std.string;
