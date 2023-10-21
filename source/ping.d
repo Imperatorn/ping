@@ -9,6 +9,11 @@ import std.datetime;
 import core.stdc.time;
 import std.array;
 import std.conv;
+
+version (Linux)
+{
+    import core.sys.linux.sys.socket;
+}
 import core.thread.osthread;
 
 import ipcmp;
