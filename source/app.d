@@ -92,5 +92,5 @@ void main(string[] args)
     // reply.sequence = recvBuf[6 .. 8].toType!ushort;
     // reply.timestamp = recvBuf[8 .. 12].toType!int;
 
-    writeln(format("Reply from %s: time=%.2f ms", host, time));
+    writeln(format("Reply from %s: time=%d ms", host, time));
 }
